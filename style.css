@@ -1,0 +1,83 @@
+
+.bg-orange .container .navbar {
+    background-color: orange;
+    
+}
+
+.btn{
+    border-radius: 20px;
+    font-family: myFirstFont;
+    color: #FFFFFF;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(./GE-Heritage-Two-Medium_A.otf);
+  }
+
+
+  .navbar-nav{
+    font-family: myFirstFont;
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    justify-content: center;
+  }
+
+
+  .navbar-light .navbar-nav .nav-link{
+      color:#989898;
+  }
+  .active { 
+    
+    color: #FFAD12 important!;
+}
+.col-3{
+    
+    align-items: center;
+    align-content: center;
+    padding-top: 150px;
+}
+.col-6{
+    
+    max-height: 100%;
+    align-items: stretch;
+}
+h1{
+    text-align: right;
+    font-family: myFirstFont;
+    font-size: 40;
+    color: #515C6E;
+
+}
+h6{
+    text-align: right; 
+    font-family: myFirstFont;
+    font-size: 16px;
+    color: #868686;
+
+}
+.mainsection{
+    padding-top: 30px;
+}
+.input-group-text{
+background-color: #FFAD12;
+color: #FFFFFF;
+border-radius: 34px;
+width: 118px;
+font-family: myFirstFont;
+border: none;
+text-align: center;
+padding-right: 10px;
+
+
+}
+.form-control{
+    font-family: myFirstFont;
+    border-radius: 24px;
+    margin-left: 100px;
+}
+
+/* webkit solution */
+::-webkit-input-placeholder { text-align:right; }
+/* mozilla solution */
+input:-moz-placeholder { text-align:right; }
